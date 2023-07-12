@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>portfolio</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="style.css">
-        </head>
-    <body style="padding: 0; margin: 0;">
-        <header>
-            <h1>MY RESUME</h1>
-        </header>
-        <main>
-            <h2>Roland Marvel</h2>
-            <p>Software developer with 10 years of web experience. building website for individuals and startup</p>
-            <a padding: 5px; href="#"><i class="bi-box-arrow-down"></i>Download My Resume</a>
-            <a padding: 5px; href="#"><i class="bi-telephone"></i>Contact Me</a>
-        </main>
-
-        <footer>
-            <h2>Reach out to my mail</h2>
-            <form action="#">
-                <div>
-                    <label for="name">Name:</label>
-                    <input style=" width: 100%; padding: 10px;" type="text" id="name" minlength="3" required>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Oluchi <span>Emmanuel</span></h1>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Project</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="#" class="header-action">Hire Me</a>
+    </header>
+    <main>
+        <section class="hero">
+            <div>
+                <p>Hello there, Welcome to my website </p>
+                <h2>I am Oluchi Emmanuel<strong> A professional Frontend</strong> Developer</h2>
+                <div class="action-button-group">
+                    <a class="action-button-primary" href="#">Download my Resume</a>
+                    <a class="action-button-secondary" href="#">Contact Me</a>
                 </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input style="width: 100%; padding: 10px;" type="email" id="email"required>
-                </div>
-                <div>
-                    <label for="message">Message</label>
-                    <textarea style="width: 100%; padding: 10px;" name="" id="message" cols="30" rows="10">What can i do for you</textarea>
-                </div>
-                    
-        </form>
-    </footer>
+            </div>
+            <div>
+                <figure class="hero-image-container">
+                    <img src="oluchi.jpg" alt="profile photo">
+                </figure>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
