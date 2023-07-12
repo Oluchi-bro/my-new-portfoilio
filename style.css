@@ -1,0 +1,12 @@
+header, footer{
+    background-color: #663399;
+    color: #ffffff;
+    padding: 24px;
+}
+main{
+    padding: 12px 24px;
+}
+
+footer div{
+    margin-bottom: 24px;
+}
